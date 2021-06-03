@@ -6,13 +6,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* body selector indicating the preferred font families, zero margin, antialiased font smoothing = Smooth the font on the level of the pixel, as opposed to the subpixel. Switching from subpixel rendering to antialiasing for light text on dark backgrounds makes it look lighter. */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* code selector--preferred font family */
 
 #root{
   display: flex;
   justify-content: space-around;
 }
+
+/* root font family (main page) indicates flex display with space around the content */
